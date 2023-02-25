@@ -242,7 +242,7 @@ int main()
         glPointSize(20.0);
 
         glBindVertexArray(VAO); // seeing as we only have a single VAO there's no need to bind it every time, but we'll do so to keep things a bit more organized
-        glDrawArrays(GL_TRIANGLES, 0, 27); //Aquí anota la cantidad de vértices a dibujar
+        glDrawArrays(GL_TRIANGLES, 0, 27); //AquÃ­ anota la cantidad de vÃ©rtices a dibujar
         //glDrawElements(GL_TRIANGLES, 18, GL_UNSIGNED_INT, 0);
         //ESTE ES MUY IMPORTANTE, ESE "18" ES EL NUMERO DE VERTICES DEL OBJETO. SI NO PONES LA CANTIDAD CORRECTA,
         //NO TE APARECERAN TUS TRIANGULOS. SOLO SUMA LA CANTIDAD DE VERTICES EN LA MATRIZ DE INDICES
